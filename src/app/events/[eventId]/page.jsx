@@ -11,7 +11,6 @@ const PageEventDetails = async ({ params }) => {
   if (!event) {
     return <p>Événement non trouvé !</p>;
   }
-//
   return (
     <div className="flex flex-col gap-10 p-2">
       <img
