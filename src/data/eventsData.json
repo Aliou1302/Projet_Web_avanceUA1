@@ -1,0 +1,34 @@
+[
+  {
+    "id":1,
+    "image":"/assets/evenementYoga1.jpg",
+    "title":"Yoga en salle",
+    "date":"28 Fevrier",
+    "time":"14h-18h",
+    "description":"Exercices de yoga pratiquer dans une salle de sport"
+  },
+  {
+    "id":2,
+    "image":"/assets/evenementYoga2.jpg",
+    "title":"Yoga en exterieur",
+    "date":"3 Mars",
+    "time":"9h-11h",
+    "description":"Exercices de yoga pratiquer dans un park"
+  },
+  {
+    "id":3,
+    "image":"/assets/evenementPilate1.jpg",
+    "title":"Pilate en salle",
+    "date":"6 Mars",
+    "time":"14h-18h",
+    "description":"Exercices de pilate pratiquer dans une salle de sport"
+  },
+  {
+    "id":4,
+    "image":"/assets/evenementPilate2.jpg",
+    "title":"Pilate en exterieur",
+    "date":"12 Mars",
+    "time":"9h-11h",
+    "description":"Exercices de pilate pratiquer dans un park"
+  }
+]
