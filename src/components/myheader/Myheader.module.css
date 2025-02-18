@@ -1,0 +1,21 @@
+.header {
+  text-align: center;
+  padding: 0;
+}
+.image {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: cover;
+  display: block;
+}
+.textContainer {
+  margin-top: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.boldTitle {
+  font-weight: bold;
+}
