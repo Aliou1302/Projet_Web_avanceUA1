@@ -1,0 +1,12 @@
+[
+  {
+    "id":6,
+    "image": "/assets/yoga.png",
+    "title": "Yoga"
+  },
+  {
+    "id":7,
+    "image": "/assets/pilate.webp",
+    "title": "Pilates"
+  }
+]
