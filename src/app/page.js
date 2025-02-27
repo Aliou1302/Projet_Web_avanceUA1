@@ -1,13 +1,11 @@
-import PageEvents from "./events/page";
-import Myheader from "@/components/header/Myheader";
 import HomeMenu from "@/components/homeMenu/HomeMenu";
+import Introduction from "@/components/introduction/Introduction";
 
 export default function Home() {
   return (
     <div>
-      <Myheader />
+      <Introduction />
       <HomeMenu />
-      <PageEvents />
     </div>
   );
 }

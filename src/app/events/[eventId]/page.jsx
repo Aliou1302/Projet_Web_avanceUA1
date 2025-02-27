@@ -2,7 +2,12 @@ import React from "react";
 import eventsData from "@/data/eventsData.json"; // Importer les événements
 
 const PageEventDetails = async ({ params }) => {
-  const eventId = params.eventId;
+
+  // Attendre que params soit prêt
+  const awaitParams = await params;
+
+  // Extraire eventId de params
+  const eventId = awaitParams.eventId;
 
   // Convertir eventId en nombre et chercher l'événement
   const event = eventsData.find((e) => e.id === parseInt(eventId));
@@ -12,7 +17,7 @@ const PageEventDetails = async ({ params }) => {
     return <p>Événement non trouvé !</p>;
   }
   return (
-    <div className="flex flex-col gap-10 p-2">
+    <div className="flex flex-col gap-10 p-2 my-[5rem]">
       <img
         src={event.image}
         alt={event.title}
