@@ -1,0 +1,55 @@
+{
+    "homeMenuData": [
+        {
+            "id": 6,
+            "image": "/assets/yoga.png",
+            "title": "Nous proposons des cours de yoga pour vous détendre"
+        },
+        {
+            "id": 7,
+            "image": "/assets/pilate.webp",
+            "title": "Nous proposons des cours de pilates pour rester en forme"
+        }
+    ],
+
+    "Home": {
+        "title": "Bienvenue chez FitSpace",
+        "description": "Votre studio de yoga et pilates dédié au bien-être.",
+        "introductionData": [
+            {
+                "id": 5,
+                "description": "Votre studio de yoga et pilates dédié au bien-être. Découvrez des séances adaptées à vos besoins, guidées par des instructeurs passionnés. Ici, nous vous aidons à cultiver l'équilibre, la force et la sérénité, afin que chaque moment passé avec nous vous rapproche de la meilleure version de vous-même. Rejoignez-nous dans un voyage vers le bien-être !"
+            }
+        ]
+    },
+    "Menu": {
+        "home": "Accueil",
+        "events": "Événements",
+        "contact": "Contact"
+    },
+    "Contact": {
+        "title": "Contactez-nous",
+        "name": "Nom complet",
+        "email": "Email",
+        "message": "Votre message",
+        "send": "Envoyer",
+        "success": "Votre message a été envoyé avec succès !"
+    },
+    "ThankYou": {
+        "title": "Merci de nous avoir contactés !",
+        "message": "Nous avons bien reçu votre message et nous vous répondrons dès que possible.",
+        "returnHome": "Retour à la page d'accueil",
+        "redirect": "(Vous serez redirigé automatiquement dans 10 secondes)"
+    },
+    "Events": {
+        "title": "Événements",
+        "viewAll": "Voir tous les événements",
+        "viewMore": "Voir plus",
+        "loading": "Chargement des événements...",
+        "noEvents": "Aucun événement disponible pour le moment."
+    },
+    "Footer": {
+        "followUs": "Suivez-nous sur nos réseaux sociaux :",
+        "copyright": "Copyright © 2025"
+    }
+}

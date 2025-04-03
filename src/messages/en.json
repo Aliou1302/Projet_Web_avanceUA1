@@ -1,0 +1,54 @@
+{
+  "homeMenuData": [
+    {
+      "id": 6,
+      "image": "/assets/yoga.png",
+      "title": "We offer yoga classes to help you relax"
+    },
+    {
+      "id": 7,
+      "image": "/assets/pilate.webp",
+      "title": "We offer pilates classes to keep you in shape"
+    }
+  ],  
+  "Home": {
+    "title": "Welcome to FitSpace",
+    "description": "Your yoga and pilates studio dedicated to well-being.",
+    "introductionData": [
+      {
+        "id": 5,
+        "description": "Your yoga and pilates studio dedicated to well-being. Discover sessions tailored to your needs, guided by passionate instructors. Here, we help you cultivate balance, strength, and serenity, so that every moment spent with us brings you closer to the best version of yourself. Join us on a journey to well-being!"
+      }
+    ]
+  },
+  "Menu": {
+    "home": "Home",
+    "events": "Events",
+    "contact": "Contact"
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "name": "Full Name",
+    "email": "Email",
+    "message": "Your message",
+    "send": "Send",
+    "success": "Your message has been sent successfully!"
+  },
+  "ThankYou": {
+    "title": "Thank you for contacting us!",
+    "message": "We have received your message and will respond as soon as possible.",
+    "returnHome": "Return to homepage",
+    "redirect": "(You will be redirected automatically in 10 seconds)"
+  },
+  "Events": {
+    "title": "Events",
+    "viewAll": "View all events",
+    "viewMore": "View more",
+    "loading": "Loading events...",
+    "noEvents": "No events available at the moment."
+  },
+  "Footer": {
+    "followUs": "Follow us on our social networks:",
+    "copyright": "Copyright © 2025"
+  }
+}

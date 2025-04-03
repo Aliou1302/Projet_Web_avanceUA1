@@ -2,22 +2,32 @@
   "name": "projet-ua1",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
+    "seed":"node prisma/seed.js",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@prisma/client": "^6.5.0",
+    "@radix-ui/react-slot": "^1.1.2",
+    "next": "15.1.7",
+    "next-intl": "^4.0.2",
+    "next-themes": "^0.4.6",
+    "nodemailer": "^6.10.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.7"
+    "zod": "^3.24.2"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "@eslint/eslintrc": "^3",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
-    "@eslint/eslintrc": "^3"
+    "postcss": "^8",
+    "prisma": "^6.5.0",
+    "tailwindcss": "^3.4.1"
   }
 }

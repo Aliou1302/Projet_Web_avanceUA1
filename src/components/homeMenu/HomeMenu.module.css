@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: #fff;
+    color: #333;
     transition: transform 0.3s;
 }
 .imageContainer{
